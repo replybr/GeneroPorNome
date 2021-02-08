@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contem </title>
+</head>
+<body>
+    
+    <script>
+
+        var nome = window.prompt("digite seu nome> ")
+        var res = nome.substr(-1,1)
+        var cadeia = "aAeEiI"
+        var saudacao = cadeia.indexOf(res) == "-1" ? " Sr " : " Sra "
+        
+        document.write( "Obrigado " + saudacao + nome + ", agradeçemos a visita!")
+        //console.log( "Obrigado " + saudacao + nome + ", agradeçemos a visita!")
+        //console.log( `Obrigado ${saudacao} ${nome}, agradeçemos a visita!`)
+    
+    </script>
+</body>
+</html>
