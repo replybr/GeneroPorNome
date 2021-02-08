@@ -1,2 +1,2 @@
 # GeneroPorNome
-Funcao que retorna o Genero da Pessoa atraves do nome digitado.
+Função que retorna o Gênero da Pessoa através do nome digitado.
